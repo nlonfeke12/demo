@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Musicweb</title>
+    <style>
+        a {
+            text-decoration: none;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar-parent {
+            width: 100%;
+            background: linear-gradient(90deg,
+                    #181818 0%,
+                    #404040 50%,
+                    #282828 100%);
+            height: 55px;
+            box-sizing: border-box;
+            align-content: center;
+            padding: 10px;
+        }
+
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: larger;
+            font-family: cursive;
+            color: aliceblue;
+        }
+
+        button {
+            border-radius: 7px;
+            padding: 5px;
+        }
+
+        input {
+            padding: 5px;
+            border-radius: 7px;
+        }
+
+        body {
+            background: linear-gradient(90deg,
+                    #181818 0%,
+                    #404040 50%,
+                    #282828 100%);
+            ;
+        }
+
+        .body1 {
+            margin: 20px 0 20px 0;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+            background: linear-gradient(90deg,
+                    #181818 0%,
+                    #404040 50%,
+                    #282828 100%);
+        }
+
+        .body2 {
+            margin: 180px 0 0px 0;
+            background: linear-gradient(90deg,
+                    #181818 0%,
+                    #404040 50%,
+                    #282828 100%);
+            ;
+            padding: 30px 50px 30px 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .body3 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            color: antiquewhite;
+            background: linear-gradient(90deg,
+                    #181818 0%,
+                    #404040 50%,
+                    #282828 100%);
+            ;
+            padding: 20px 0 20px 1%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .footer {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10px;
+            color: antiquewhite;
+            background-color: #1e1e1e;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 15px;
+        }
+
+        nav a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        img {
+            transform: scale(1);
+            transition: all 0.5s ease;
+        }
+
+        img:hover {
+            transition: all 0.5s ease;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar-parent">
+        <nav class="navbar" style="border-bottom: 2px solid #181818;">
+            <a href="/html/spckfinal.html" style="
+            font-weight: bolder;
+            font-size: larger;
+            text-decoration: none;
+          ">Musicweb</a>
+            <p>
+                <a href="/html/newlyadded.html" style="text-decoration: none; ">Newly added</a>
+            </p>
+            <p>
+                <a href="/html/popular.html" style="text-decoration: none; ">Popular</a>
+            </p>
+            <p><a href="/html/genres.html" style="text-decoration: none; ">Genres</a></p>
+            <p>
+                <a href="/html/artistnband.html" style="text-decoration: none; ">Artists/Bands</a>
+            </p>
+            <p>
+                <a href="/html/suggestform.html" style="text-decoration: none; ">Wanna suggest more?</a>
+            </p>
+            <p>
+                <a href="/html/register.html" style="text-decoration: none; ">Create account</a>
+            </p>
+            <p>
+                <a href="/html/login.html" style="text-decoration: none; ">Sign in</a>
+            </p>
+            <input type="text" placeholder="Search something..." /><button>
+                <a href="/html/spckfinal.html" style="text-decoration: none; color: black;">Search</a>
+            </button>
+        </nav>
+    </div>
+    <div class="body1">
+        <p style="font-size: 35px; position: relative; color: antiquewhite">
+            Welcome to Musicweb! <br />
+            A website with various genres <br />and high-quality musics, podcasts,
+            etc.
+            <img src="/img/musiccarousel1.PNG" alt="carouselmusic1" style="
+            top: -20px;
+            background: linear-gradient(
+              90deg,
+              #181818 0%,
+              #404040 50%,
+              #282828 100%
+            );
+            position: absolute;
+            left: 740px;
+          " />
+        </p>
+    </div>
+    <div class="body2">
+        <img src="/img/musiccarousel2.PNG" alt="musiccarousel2" />
+        <p style="font-size: 35px; color: antiquewhite">
+            This is somewhat the<br />standing-out music platform<br />in all of
+            those on the internet.<br />Wide range of genres. No<br />payments. No
+            trials. All for<br />free.
+        </p>
+    </div>
+    <div class="body3">
+        <p style="padding-top: 13%">Have</p>
+        <img src="/img/musiccarousel3.PNG" alt="musiccarousel3" />
+        <p style="padding-top: 13%">Fun!</p>
+    </div>
+    <div class="footer">
+        <a href="https://base.mindx.edu.vn" style="color: antiquewhite">About us</a>
+        <a href="https://techteam-mindx.freshdesk.com/support/home" style="color: antiquewhite">Help</a>
+        <p>Language: English (US)</p>
+        <a href="/html/register.html" style="color: antiquewhite">Register</a>
+        <a href="/html/login.html" style="color: antiquewhite">Login</a>
+        <p>@2025 MindX Technology School JSB18</p>
+    </div>
+</body>
+
+</html>

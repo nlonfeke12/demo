@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classical</title>
+    <style>
+        body {
+            background-color: #181818;
+        }
+
+        .intro-parent {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            justify-content: space-between;
+            margin: 40px 0 0 70px;
+            color: azure;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #p1 {
+            font-size: 50px;
+            font-weight: 800;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar-parent {
+            width: 100%;
+            background: linear-gradient(90deg,
+                    #181818 0%,
+                    #404040 50%,
+                    #282828 100%);
+            height: 55px;
+            box-sizing: border-box;
+            align-content: center;
+            padding: 10px;
+        }
+
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: larger;
+            font-family: cursive;
+            font-size: 20px;
+        }
+
+        #p2 {
+            font-size: larger;
+        }
+
+        .audio-parent {
+            margin: 20px 0 0 80px;
+            color: azure;
+            font-size: 30px;
+            font-family: fantasy;
+            align-items: center;
+        }
+
+        .audio1 {
+            height: 150px;
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        button {
+            border-radius: 7px;
+            padding: 5px;
+        }
+
+        input {
+            padding: 5px;
+            border-radius: 7px;
+        }
+
+        audio::-webkit-media-controls-panel {
+            background: rgb(1, 167, 1);
+        }
+
+        audio::-webkit-media-controls-play-button {
+            background-color: rgb(1, 167, 1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar-parent">
+        <nav class="navbar">
+            <a href="/html/spckfinal.html" style="font-weight: bolder; font-size: larger;">Musicweb</a>
+            <p>
+                <a href="/html/newlyadded.html">Newly added</a>
+            </p>
+            <p>
+                <a href="/html/popular.html">Popular</a>
+            </p>
+            <p><a href="/html/genres.html">Genres</a></p>
+
+            <p>
+                <a href="/html/artistnband.html">Artists/Bands</a>
+            </p>
+            <p>
+                <a href="/html/suggestform.html">Wanna suggest more?</a>
+            </p>
+            <p>
+                <a href="/html/register.html">Create account</a>
+            </p>
+            <p>
+                <a href="/html/login.html">Sign in</a>
+            </p>
+            <input type="text" placeholder="Search something..." /><button>
+                <a href="/html/spckfinal.html" style="color: black;">Search</a>
+            </button>
+        </nav>
+    </div>
+    <div class="intro-parent">
+        <p id="p1">Classical</p>
+        <p id="p2">And below are some songs in this genre, check them out!</p>
+    </div>
+    <div class="audio-parent">
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio
+                src="/music/drive-download-20250922T013452Z-1-001/classical/André Rieu ft. Gheorghe Zamfir - The Lonely Shepherd - André Rieu (youtube).mp3"
+                controls style="width: 180dvh">
+                The Lonely Shepherd- André Rieu, Gheorghe Zamfir
+            </audio>
+            <p>The Lonely Shepherd- André Rieu, Gheorghe Zamfir</p>
+        </div>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio
+                src="/music/drive-download-20250922T013452Z-1-001/classical/Beethoven’s 5 Secrets  OneRepublic Meets Beethoven  The Piano Guys - The Piano Guys (youtube).mp3"
+                controls style="width: 180dvh">
+                OneRepublic Meets Beethoven (Beethoven's 5 Secrets)- The Piano Guys
+            </audio>
+            <p>OneRepublic Meets Beethoven (Beethoven's 5 Secrets)- The Piano Guys</p>
+        </div>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio
+                src="/music/drive-download-20250922T013452Z-1-001/classical/Chopin - Nocturne op.9 No.2 - andrea romano (youtube).mp3"
+                controls style="width: 180dvh">
+                Nocturne op.9 No.2- Chopin, andrea romano
+            </audio>
+            <p>Nocturne op.9 No.2- Chopin, andrea romano</p>
+        </div>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio
+                src="/music/drive-download-20250922T013452Z-1-001/classical/Chopin - Spring Waltz (Mariage d'Amour) [Please Read Description] - Toms Mucenieks (youtube).mp3"
+                controls style="width: 180dvh">
+                Spring Waltz (Mariage d'Amour)- Chopin, Toms Mucenieks
+            </audio>
+            <p>Spring Waltz (Mariage d'Amour)- Chopin, Toms Mucenieks</p>
+        </div>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio
+                src="/music/drive-download-20250922T013452Z-1-001/classical/Yiruma, (이루마) - River Flows in You - YirumaVEVO (youtube).mp3"
+                controls style="width: 180dvh">
+                River Flows in You- YirumaVEVO, 이루마
+            </audio>
+            <p>River Flows in You- YirumaVEVO, 이루마</p>
+        </div>
+    </div>
+</body>
+
+</html>

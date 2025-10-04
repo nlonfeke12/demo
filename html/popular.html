@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOT songs</title>
+    <style>
+        body {
+            background-color: #181818;
+        }
+
+        .intro-parent {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            justify-content: space-between;
+            margin: 40px 0 0 70px;
+            color: azure;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #p1 {
+            font-size: 50px;
+            font-weight: 800;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .navbar-parent {
+            width: 100%;
+            background: linear-gradient(90deg,
+                    #181818 0%,
+                    #404040 50%,
+                    #282828 100%);
+            height: 55px;
+            box-sizing: border-box;
+            align-content: center;
+            padding: 10px;
+        }
+
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: larger;
+            font-family: cursive;
+            font-size: 20px;
+        }
+
+        #p2 {
+            font-size: larger;
+        }
+
+        .audio-parent {
+            margin: 20px 0 0 80px;
+            color: azure;
+            font-size: 30px;
+            font-family: fantasy;
+            align-items: center;
+        }
+
+        .audio1 {
+            height: 150px;
+            justify-content: space-between;
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        button {
+            border-radius: 7px;
+            padding: 5px;
+        }
+
+        input {
+            padding: 5px;
+            border-radius: 7px;
+        }
+
+        audio::-webkit-media-controls-panel {
+            background: rgb(1, 167, 1);
+        }
+
+        audio::-webkit-media-controls-play-button {
+            background-color: rgb(1, 167, 1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar-parent">
+        <nav class="navbar">
+            <a href="/html/spckfinal.html" style="font-weight: bolder; font-size: larger;">Musicweb</a>
+            <p>
+                <a href="/html/newlyadded.html">Newly added</a>
+            </p>
+            <p>
+                <a href="/html/popular.html">Popular</a>
+            </p>
+            <p><a href="/html/genres.html">Genres</a></p>
+
+            <p>
+                <a href="/html/artistnband.html">Artists/Bands</a>
+            </p>
+            <p>
+                <a href="/html/suggestform.html">Wanna suggest more?</a>
+            </p>
+            <p>
+                <a href="/html/register.html">Create account</a>
+            </p>
+            <p>
+                <a href="/html/login.html">Sign in</a>
+            </p>
+            <input type="text" placeholder="Search something..." /><button>
+                <a href="/html/spckfinal.html" style="color: black;">Search</a>
+            </button>
+        </nav>
+    </div>
+    <div class="intro-parent">
+        <p id="p1">HOT songs</p>
+        <p id="p2">Below are some popular songs that many people love to listen to in some specific periods</p>
+    </div>
+    <div class="audio-parent">
+        <p
+            style="color: aliceblue; font-size: 50px; font-weight: 600; font-family: Arial, Helvetica, sans-serif; margin: 50px;">
+            Daily:</p>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio src="/music/ChiEmCayKheNhacChe-HauHoang-6183449.mp3" controls style="width: 180dvh">
+                Chi Em Cay Khe- Hau Hoang
+            </audio>
+            <p>Chi Em Cay Khe- Hau Hoang</p>
+        </div>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio src="/music/da tan cover.mp3" controls style="width: 180dvh">
+                Da Tan (cover by CAM)- Ngot
+            </audio>
+            <p>Da Tan (cover by CAM)- Ngot</p>
+        </div>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio src="/music/DaiCaLop12ATuyAmSaveMeParody-LEG-5322963.mp3" controls style="width: 180dvh">
+                Dai Ca Lop 12A- Vanh Leg
+            </audio>
+            <p>Dai Ca Lop 12A- Vanh Leg</p>
+        </div>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio src="/music/Dance Monkey - Tones And I.mp3" controls style="width: 180dvh">
+                Dance Monkey- Tones And I
+            </audio>
+            <p>Dance Monkey- Tones And I</p>
+        </div>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio src="/music/De Mi Noi Cho Ma Nghe - Hoang Thuy Linh.mp3" controls style="width: 180dvh">
+                De Mi Noi Cho Ma Nghe- Hoang Thuy Linh
+            </audio>
+            <p>De Mi Noi Cho Ma Nghe- Hoang Thuy Linh</p>
+        </div>
+        <p
+            style="color: aliceblue; font-size: 50px; font-weight: 600; font-family: Arial, Helvetica, sans-serif; margin: 50px;">
+            Monthly:</p>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio src="/music/Dem Cuu - Han Sara_ Kay Tran.mp3" controls style="width: 180dvh">
+                Dem Cuu- Han Sara, Kay Tran
+            </audio>
+            <p>Dem Cuu- Han Sara, Kay Tran</p>
+        </div>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio src="/music/Di De Tro Ve - Soobin Hoang Son.mp3" controls style="width: 180dvh">
+                Di De Tro Ve- Soobin Hoang Son
+            </audio>
+            <p>Di De Tro Ve- Soobin Hoang Son</p>
+        </div>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio src="/music/DiDuDuaDi-BichPhuong-6059493.mp3" controls style="width: 180dvh">
+                Di Du Dua Di- Bich Phuong
+            </audio>
+            <p>Di Du Dua Di- Bich Phuong</p>
+        </div>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio src="/music/Dieu Anh Biet - Chi Dan.mp3" controls style="width: 180dvh">
+                Dieu Anh Biet- Chi Dan
+            </audio>
+            <p>Dieu Anh Biet- Chi Dan</p>
+        </div>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio src="/music/dotco.mp3" controls style="width: 180dvh">
+                Do Toc- Do Mixi
+            </audio>
+            <p>Do Toc- Do Mixi</p>
+        </div>
+        <p
+            style="color: aliceblue; font-size: 50px; font-weight: 600; font-family: Arial, Helvetica, sans-serif; margin: 50px;">
+            All time:</p>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio src="/music/DoToc2-MasewDoMixiPhucDuPhao-7064730.mp3" controls style="width: 180dvh">
+                Do Toc 2- Do Mixi
+            </audio>
+            <p>Do Toc 2- Do Mixi</p>
+        </div>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio src="/music/DuongTaChoEmVe-buitruonglinh-6318765.mp3" controls style="width: 180dvh">
+                Duong Toi Cho Em Ve- Bui Truong Linh
+            </audio>
+            <p>Duong Toi Cho Em Ve- Bui Truong Linh</p>
+        </div>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio src="/music/EmBe-AMEEKarik-6719970.mp3" controls style="width: 180dvh">
+                Em Be- AMEE, Karik
+            </audio>
+            <p>Em Be- AMEE, Karik</p>
+        </div>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio src="/music/Giau Vi Ban_ Sang Vi Vo - RPT MCK.mp3" controls style="width: 180dvh">
+                Giau Vi Ban, Sang Vi Vo- RPT, MCK
+            </audio>
+            <p>Giau Vi Ban, Sang Vi Vo- RPT, MCK</p>
+        </div>
+        <div class="audio1" style="
+          border: 5px solid rgb(1,167,1);
+          width: fit-content;
+          border-radius: 20px;
+          padding: 10px;
+          margin: 100px 0 0 40px;
+        ">
+            <audio src="/music/HayTraoChoAnh-SonTungMTPSnoopDogg-6010660.mp3" controls style="width: 180dvh">
+                Hay Trao Cho Anh- Son Tung MTP
+            </audio>
+            <p>Hay Trao Cho Anh- Son Tung MTP</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genres</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .artist-card-container>a {
+            margin: 4% 8% 8% 8%;
+            padding: 15px;
+            text-decoration: none;
+        }
+
+        .artist-card {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            border: 5px solid rgb(1, 167, 1);
+            border-radius: 40px;
+            margin: 4% 8% 8% 8%;
+            width: max-content;
+            padding: 15px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            background: #834D9B;
+            background: radial-gradient(circle, rgba(131, 77, 155, 1) 47%, rgba(208, 78, 214, 1) 100%);
+            width: 140px;
+            transform: scale(1);
+            transition: all 0.5s ease;
+            height: 150px;
+        }
+
+        body {
+            background: #485563;
+            background: linear-gradient(90deg, rgba(72, 85, 99, 1) 50%, rgba(41, 50, 60, 1) 100%);
+        }
+
+        .artist-card>img {
+            padding-top: 10px;
+        }
+
+        img {
+            border-radius: 100px;
+        }
+
+        .artist-card>p {
+            color: whitesmoke;
+        }
+
+        .navbar-parent {
+            width: 100%;
+            background: linear-gradient(90deg,
+                    #181818 0%,
+                    #404040 50%,
+                    #282828 100%);
+            height: 55px;
+            box-sizing: border-box;
+            align-content: center;
+            padding: 10px;
+        }
+
+        .navbar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: larger;
+            font-family: cursive;
+            font-size: 20px;
+            color: aliceblue;
+            border-bottom: 2px solid #181818;
+        }
+
+        nav a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        button {
+            border-radius: 7px;
+            padding: 5px;
+        }
+
+        input {
+            padding: 5px;
+            border-radius: 7px;
+        }
+
+        img {
+            width: 120px;
+            height: 120px;
+        }
+
+        body {
+            background: linear-gradient(90deg, #181818 0%, #404040 50%, #282828 100%);
+        }
+
+        .artist-card-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .artist-card:hover {
+            transform: scale(1.2);
+            transition: all 0.5s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar-parent">
+        <nav class="navbar">
+            <a href="/html/spckfinal.html" style="font-weight: bolder; font-size: larger;">Musicweb</a>
+            <p>
+                <a href="/html/newlyadded.html">Newly added</a>
+            </p>
+            <p>
+                <a href="/html/popular.html">Popular</a>
+            </p>
+            <p><a href="/html/genres.html">Genres</a></p>
+
+            <p>
+                <a href="/html/artistnband.html">Artists/Bands</a>
+            </p>
+            <!-- how to tag folder in href: "/" -->
+            <p>
+                <a href="/html/suggestform.html">Wanna suggest more?</a>
+            </p>
+            <p>
+                <a href="/html/register.html">Create account</a>
+            </p>
+            <p>
+                <a href="/html/login.html">Sign in</a>
+            </p>
+            <input type="text" placeholder="Search something..." /><button>
+                <a href="/html/spckfinal.html" style="color: black;">Search</a>
+            </button>
+        </nav>
+    </div>
+    <p
+        style="font-size: 50px; color: whitesmoke;font-weight: 800;font-family: Arial, Helvetica, sans-serif; margin: 40px 5% 0 70px;">
+        Genres</p>
+    <p style="font-size: 20px; color: whitesmoke; font-family: Arial, Helvetica, sans-serif; margin: 0 5% 0 70px;">You
+        may find your favourite types of music here!</p>
+    <div class="artist-card-container">
+        <a href="/html/genres/usuk.html">
+            <div class="artist-card">
+                <p>US-UK</p>
+            </div>
+        </a>
+        <a href="/html/genres/vpop.html">
+            <div class="artist-card">
+                <p>V-Pop</p>
+            </div>
+        </a>
+        <a href="/html/genres/podcasts.html">
+            <div class="artist-card">
+                <p>Podcasts</p>
+            </div>
+        </a>
+        <a href="/html/genres/kpop.html">
+            <div class="artist-card">
+                <p>K-Pop</p>
+            </div>
+        </a>
+        <a href="/html/genres/rap.html">
+            <div class="artist-card">
+                <p>Rap</p>
+            </div>
+        </a>
+        <a href="/html/genres/edm.html">
+            <div class="artist-card">
+                <p>EDM</p>
+            </div>
+        </a>
+        <a href="/html/genres/instrument.html">
+            <div class="artist-card">
+                <p>InstrumentalPop</p>
+            </div>
+        </a>
+        <a href="/html/genres/classical.html">
+            <div class="artist-card">
+                <p>Classical</p>
+            </div>
+        </a>
+        <a href="/html/genres/ballad.html">
+            <div class="artist-card">
+                <p>Ballad</p>
+            </div>
+        </a>
+    </div>
+</body>
+
+</html>
